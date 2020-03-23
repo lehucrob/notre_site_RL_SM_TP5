@@ -1,0 +1,67 @@
+html,body  
+{
+margin:0;
+padding:0;
+background-color: cadetblue;
+}
+
+h1
+{
+ color:darkred;
+    text-align: center;
+    border : 3px dotted white;
+    width:18%;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:40px;
+}
+
+
+
+#banniere
+{
+    width:100%;
+    padding-bottom: 20px;
+}
+
+#menu
+{
+    width: 30%;
+    position: relative;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#menu img{
+    width: 75%;
+}
+
+.elmntMenu
+{
+    border: 2px solid black;
+    margin: 10px;
+    padding-bottom: 4px;
+}
+
+.titrePage
+{
+    width:15%;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.imgTerrain
+{
+    width:30%;
+    margin-top:25px;
+    margin-left: 35%;
+}
+
+.descriptionTerrain
+{
+    margin-left: 10px;
+    font-size:20px;
+}
