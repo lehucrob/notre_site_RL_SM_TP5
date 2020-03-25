@@ -17,7 +17,10 @@ h1
     font-size:40px;
 }
 
-
+a
+{
+    text-decoration: none;
+}
 
 #banniere
 {
@@ -47,6 +50,7 @@ h1
 
 .titrePage
 {
+    font-size: 35px;
     width:15%;
     text-align: center;
     margin: 0 auto;
@@ -60,8 +64,70 @@ h1
     margin-left: 35%;
 }
 
-.descriptionTerrain
+.description
 {
     margin-left: 10px;
     font-size:20px;
+}
+
+#bylethimg
+{
+    background-color: white;
+}
+
+#menuTerrain
+{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.elmntTerrain
+{
+    text-align: center;
+}
+
+#menuCommu
+{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#imgtournoi
+{
+    width: 300px;
+
+}
+
+#imgjoueur
+{
+    width: 300px;
+}
+
+#imgtournoi2
+{
+    width: 450px;
+    margin-left:33%;
+}
+
+.ficheJoueur
+{
+    border: 2px solid black;
+    width: 80%;
+    margin: 20px auto;
+    padding-left: 15px;
+}
+
+.ficheJoueur ul
+{
+    list-style: none;
+}
+
+#imgtier
+{
+    width:60%;
+    margin-left:20%;
 }
